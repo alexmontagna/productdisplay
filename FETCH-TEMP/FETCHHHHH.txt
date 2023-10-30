@@ -1,0 +1,9 @@
+https://4ilk3v7wbk.execute-api.eu-west-1.amazonaws.com/dev/collection_listings.json
+
+https://4ilk3v7wbk.execute-api.eu-west-1.amazonaws.com/dev/collections/{COLL_ID}/products.json
+https://4ilk3v7wbk.execute-api.eu-west-1.amazonaws.com/dev/collections/266329686089/products.json home-and-garden 
+https://4ilk3v7wbk.execute-api.eu-west-1.amazonaws.com/dev/collections/266329391177/products.json apparel
+https://4ilk3v7wbk.execute-api.eu-west-1.amazonaws.com/dev/collections/266329161801/products.json jewelry
+
+https://4ilk3v7wbk.execute-api.eu-west-1.amazonaws.com/dev/products/{PROD_ID}.json
+https://4ilk3v7wbk.execute-api.eu-west-1.amazonaws.com/dev/products/6735725133897.json

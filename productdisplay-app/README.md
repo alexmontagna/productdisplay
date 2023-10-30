@@ -1,27 +1,44 @@
-# React + TypeScript + Vite
+# App di Visualizzazione Prodotti
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Questa è un'applicazione React progettata per mostrare varie collezioni di prodotti. Permette agli utenti di visualizzare diverse categorie di prodotti e di esplorare prodotti individuali all'interno di tali categorie.
 
-Currently, two official plugins are available:
+## Funzionalità
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Elenca le collezioni di prodotti
+- Visualizza i dettagli dei singoli prodotti
+- Interfaccia utente interattiva con design moderno
 
-## Expanding the ESLint configuration
+## Tecnologie Utilizzate
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React
+- TypeScript
+- Tailwind CSS
 
-- Configure the top-level `parserOptions` property like this:
+## Installazione e Esecuzione dell'App
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+### Prerequisiti
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Node.js
+- npm
+
+### Passaggi per l'Installazione
+Per eseguire questo progetto localmente, segui questi passaggi:
+
+1. **Clona la repository**:
+   ```bash
+   git clone https://github.com/alexmontagna/productdisplay.git
+   ```
+2. **Naviga nella directory del progetto**:
+   ```bash
+   cd productdisplay-app
+   ```
+3. **Installa le Dipendenze**:
+   ```bash
+   npm install
+   ```
+4. **Esegui l'App**:
+   ```bash
+   npm run dev
+   ```
+
+Seguendo questi passaggi, l'app dovrebbe essere in esecuzione su [http://localhost:3000](http://localhost:3000).
